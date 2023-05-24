@@ -1,8 +1,8 @@
 
 # Gustav PHP
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/GILLESMaster/gustav-php.svg)](https://github.com/GILLESMaster/gustav-php/commits/main)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/GILLESMaster/gustav-php/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/GILLESMaster/Gustav-PHP.svg)](https://github.com/GILLESMaster/Gustav-PHP/commits/main)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/GILLESMaster/Gustav-PHP/blob/main/LICENSE)
 
 Gustav PHP is a web application built on the Laravel framework with a Vite-powered frontend. It provides a robust foundation for developing PHP-based web applications with modern frontend tooling.
 
@@ -23,7 +23,7 @@ Before proceeding with the installation, please ensure that you have the followi
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/GILLESMaster/gustav-php.git
+   git clone https://github.com/GILLESMaster/Gustav-PHP.git
    ```
 
 2. Install dependencies:
@@ -66,7 +66,7 @@ Before proceeding with the installation, please ensure that you have the followi
 
 ## Contributing
 
-Contributions are welcome! If you encounter any bugs or have suggestions for improvements, please [open an issue](https://github.com/GILLESMaster/gustav-php/issues) or submit a pull request.
+Contributions are welcome! If you encounter any bugs or have suggestions for improvements, please [open an issue](https://github.com/GILLESMaster/Gustav-PHP/issues) or submit a pull request.
 
 ## License
 
