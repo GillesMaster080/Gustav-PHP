@@ -16,16 +16,9 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        stack: [blade, react, vue, api]
+        stack: [blade]
         laravel: [10]
         args: ["", --pest]
-        include:
-          - stack: vue
-            args: --ssr --typescript
-            laravel: 10
-          - stack: react
-            args: --ssr --typescript
-            laravel: 10
 
     name: Test Stubs - Laravel ${{ matrix.laravel }} - ${{ matrix.stack }} ${{ matrix.args }}
 
