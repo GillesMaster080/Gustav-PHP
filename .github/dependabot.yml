@@ -11,11 +11,10 @@ updates:
       interval: "daily"
     assignees:
       - "GILLESMaster"
-      
+
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
     assignees:
       - "GILLESMaster"
-      
