@@ -19,8 +19,8 @@ Gustav PHP is a web database API built on the Laravel framework with a Vite-powe
 
 Before proceeding with the installation, please ensure that you have the following prerequisites installed:
 
-- PHP 8.x.x
-- Node.js v18.x.x
+- PHP ^8.2.x
+- Node.js ^v18.16.x
 
 1. Clone the repository:
 
@@ -80,6 +80,3 @@ This project utilizes the following open-source libraries and frameworks:
 
 - [Laravel](https://laravel.com)
 - [Vite](https://vitejs.dev)
-
-
-This is my current setup. Please note that atleast PHP 8.2.x and Node.js v18.16.x or higher must be installed before proceeding with the installation.
