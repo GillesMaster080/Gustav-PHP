@@ -80,4 +80,4 @@ This project utilizes the following open-source libraries and frameworks:
 - [Vite](https://vitejs.dev)
 
 
-This is my current setup. Please note that PHP 8.x.x and Node.js v18.x.x must be installed before proceeding with the installation.
+This is my current setup. Please note that atleast PHP 8.2.x and Node.js v18.16.x or higher must be installed before proceeding with the installation.
