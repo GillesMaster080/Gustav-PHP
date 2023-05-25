@@ -1,6 +1,7 @@
 
 # Gustav PHP
 
+[![tests](https://github.com/GILLESMaster/Gustav-PHP/actions/workflows/tests.yml/badge.svg)](https://github.com/GILLESMaster/Gustav-PHP/actions/workflows/tests.yml)
 [![GitHub last commit](https://img.shields.io/github/last-commit/GILLESMaster/Gustav-PHP.svg)](https://github.com/GILLESMaster/Gustav-PHP/commits/main)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/GILLESMaster/Gustav-PHP/blob/main/LICENSE)
 [![CodeFactor](https://www.codefactor.io/repository/github/gillesmaster/gustav-php/badge)](https://www.codefactor.io/repository/github/gillesmaster/gustav-php)
