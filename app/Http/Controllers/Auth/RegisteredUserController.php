@@ -33,7 +33,10 @@ class RegisteredUserController extends Controller
         $request->validate([
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:'.User::class],
-            'password' => ['required', 'confirmed', Rules\Password::defaults()],
+            'password' => ['required', Rules\Password::defaults()],
+            'password_confirmation' => ['same:password']
+        ], [
+            'password_confirmation' => 'The password field confirmation does not match.'
         ]);
 
         $user = User::create([
