@@ -78,5 +78,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 This project utilizes the following open-source libraries and frameworks:
 
-- [Laravel](https://laravel.com)
-- [Vite](https://vitejs.dev)
+- [![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?logo=laravel&logoColor=white)](https://laravel.com/)
+- [![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+- [![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?logo=vue.js&logoColor=white)](https://vuejs.org/)
