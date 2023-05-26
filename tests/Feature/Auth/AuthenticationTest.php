@@ -30,10 +30,10 @@ class AuthenticationTest extends TestCase
         $this->assertAuthenticated();
         $response->assertRedirect(RouteServiceProvider::HOME);
 
-        // Check if the API key is stored in the session
+        // Check if the API key is stored in the session.
         $this->assertTrue(session()->has('api_token'));
 
-        // Alternatively, check if the API key is stored in the user's database record
+        // Alternatively, check if the API key is stored in the user's database record.
         $this->assertNotNull($user->api_token);
     }
 
