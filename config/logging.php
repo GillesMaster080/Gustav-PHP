@@ -54,7 +54,7 @@ return [
     'channels' => [
         'stack' => [
             'driver' => 'stack',
-            'channels' => ['single'],
+            'channels' => ['single', 'flare'],
             'ignore_exceptions' => false,
         ],
 
@@ -88,6 +88,10 @@ return [
             'level'  => 'debug',
             'url'    => env('LOG_DISCORD_WEBHOOK_URL'),
             'ignore_exceptions' => env('LOG_DISCORD_IGNORE_EXCEPTIONS', false),
+        ],
+
+        'flare' => [
+            'driver' => 'flare',
         ],
 
         'papertrail' => [
