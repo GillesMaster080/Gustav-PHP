@@ -12,7 +12,6 @@
         "laravel/tinker": "^2.8",
         "livewire/livewire": "^2.12",
         "marvinlabs/laravel-discord-logger": "^1.4",
-        "sentry/sentry-laravel": "^3.4",
         "spatie/laravel-cookie-consent": "^3.2"
     },
     "require-dev": {
