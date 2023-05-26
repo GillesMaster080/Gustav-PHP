@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
 use Illuminate\View\View;
+use Laravel\Sanctum\PersonalAccessTokenResult;
 
 /**
  * Coded revised by 'aboutaleb-dev'.
@@ -52,7 +53,18 @@ class RegisteredUserController extends Controller
 
         event(new Registered($user));
 
+        // Generate API token for the registered user
+        $tokenResult = $user->createToken('API Token');
+        $token = $tokenResult->plainTextToken;
+
+        // Store the API token in the user's record
+        $user->api_token = $token;
+        $user->save();
+
         Auth::login($user);
+
+        // Store the API token in the session
+        $request->session()->put('api_token', $token);
 
         return redirect(RouteServiceProvider::HOME);
     }
