@@ -12,7 +12,7 @@
                     {{ __("You're logged in!") }}
 
                     @auth
-                        @if (auth()->user()->currentAccessToken())
+                        @if (session('api_token') !== null)
                             <div>
                                 API Token: {{ session('api_token') }}
                             </div>
