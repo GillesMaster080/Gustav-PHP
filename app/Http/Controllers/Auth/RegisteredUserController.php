@@ -15,6 +15,7 @@ use Illuminate\View\View;
 
 /**
  * Coded revised by 'aboutaleb-dev'.
+ * Made the password validation more clear.
  */
 
 class RegisteredUserController extends Controller
