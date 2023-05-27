@@ -17,7 +17,8 @@
         "marvinlabs/laravel-discord-logger": "^1.4",
         "solution-forest/filament-firewall": "^1.0",
         "spatie/laravel-cookie-consent": "^3.2",
-        "spatie/laravel-ignition": "^2.1"
+        "spatie/laravel-ignition": "^2.1",
+        "z3d0x/filament-logger": "^0.5.3"
     },
     "require-dev": {
         "doctrine/dbal": "^3.6",
