@@ -26,7 +26,7 @@
                     @auth
                         @if (auth()->user()->canAccessFilament())
                             <div>
-                                <a href="{{ config('app.admin_panel_url') }}" style="color:red;">Admin Panel</a>
+                                <a href="{{ config('app.admin_panel_url') }}" style="color:red;"><u>Admin Panel</u></a>
                             </div>
                         @else
                             <div>
