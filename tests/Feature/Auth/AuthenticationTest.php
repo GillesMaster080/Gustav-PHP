@@ -37,6 +37,31 @@ class AuthenticationTest extends TestCase
         $this->assertNotNull($user->api_token);
     }
 
+    public function test_user_can_access_api_with_valid_api_token(): void
+    {
+        $user = User::factory()->create();
+
+        // Login the user and obtain the API token
+        $this->post('/login', [
+            'email' => $user->email,
+            'password' => 'password',
+        ]);
+
+        // Retrieve the API token from the session
+        $apiToken = session('api_token');
+
+        // Make a request to an API route with the API token
+        $response = $this->withHeaders([
+            'Authorization' => 'Bearer ' . $apiToken,
+        ])->get('/api/users');
+
+        // Assert that the request was successful
+        $response->assertStatus(200);
+
+        // Additional assertions on the API response if needed
+        // ...
+    }
+
     public function test_users_can_not_authenticate_with_invalid_password(): void
     {
         $user = User::factory()->create();
