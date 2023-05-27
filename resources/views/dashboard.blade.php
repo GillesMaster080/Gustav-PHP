@@ -22,6 +22,18 @@
                             </div>
                         @endif
                     @endauth
+
+                    @auth
+                        @if (auth()->user()->canAccessFilament())
+                            <div>
+                                <a href="{{ config('app.admin_panel_url') }}" style="color:red;">Admin Panel</a>
+                            </div>
+                        @else
+                            <div>
+                                API available.
+                            </div>
+                        @endif
+                    @endauth
                 </div>
             </div>
         </div>
