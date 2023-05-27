@@ -15,6 +15,7 @@
         "laravel/tinker": "^2.8",
         "livewire/livewire": "^2.12",
         "marvinlabs/laravel-discord-logger": "^1.4",
+        "shuvroroy/filament-spatie-laravel-health": "^1.6",
         "solution-forest/filament-firewall": "^1.0",
         "spatie/laravel-cookie-consent": "^3.2",
         "spatie/laravel-ignition": "^2.1",
