@@ -7,7 +7,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/gillesmaster/gustav-php/badge)](https://www.codefactor.io/repository/github/gillesmaster/gustav-php)
 [![gitlocalized ](https://gitlocalize.com/repo/8669/whole_project/badge.svg)](https://gitlocalize.com/repo/8669/whole_project?utm_source=badge)
 
-Gustav PHP is a web database API built on the Laravel framework with a Vite and Vue powered frontend. It provides an easy and clean way for developers to integrate database features with simple HTTP requests and API keys.
+Gustav PHP is a web database API built on the Laravel framework with a Vite and Livewire powered frontend. It provides an easy and clean way for developers to integrate database features with simple HTTP requests and API keys.
 
 ## Features
 

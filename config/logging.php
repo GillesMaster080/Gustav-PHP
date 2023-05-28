@@ -32,7 +32,7 @@ return [
     */
 
     'deprecations' => [
-        'channel' => env('LOG_DEPRECATIONS_CHANNEL', 'stack'),
+        'channel' => env('LOG_DEPRECATIONS_CHANNEL', 'null'),
         'trace' => false,
     ],
 
@@ -54,7 +54,7 @@ return [
     'channels' => [
         'stack' => [
             'driver' => 'stack',
-            'channels' => ['single', 'stderr','flare'],
+            'channels' => ['single'],
             'ignore_exceptions' => false,
         ],
 
@@ -78,20 +78,8 @@ return [
             'url' => env('LOG_SLACK_WEBHOOK_URL'),
             'username' => 'Laravel Log',
             'emoji' => ':boom:',
-            'level' => env('LOG_LEVEL', 'debug'),
+            'level' => env('LOG_LEVEL', 'critical'),
             'replace_placeholders' => true,
-        ],
-
-        'discord' => [
-            'driver' => 'custom',
-            'via'    => MarvinLabs\DiscordLogger\Logger::class,
-            'level'  => 'debug',
-            'url'    => env('LOG_DISCORD_WEBHOOK_URL'),
-            'ignore_exceptions' => env('LOG_DISCORD_IGNORE_EXCEPTIONS', false),
-        ],
-
-        'flare' => [
-            'driver' => 'flare',
         ],
 
         'papertrail' => [
