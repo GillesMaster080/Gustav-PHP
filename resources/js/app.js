@@ -4,6 +4,8 @@ import Alpine from 'alpinejs';
 
 import { flare } from "@flareapp/flare-client";
 
+import 'clockwork-browser/metrics'
+
 // Only enable Flare in production, we don't want to waste your quota while you're developing:
 if (process.env.NODE_ENV === 'production') {
     flare.light(import.meta.env.VITE_FLARE_KEY);

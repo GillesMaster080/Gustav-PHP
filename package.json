@@ -18,6 +18,7 @@
     },
     "dependencies": {
         "@flareapp/flare-client": "^3.0.5",
-        "@flareapp/flare-vue": "^3.0.5"
+        "@flareapp/flare-vue": "^3.0.5",
+        "clockwork-browser": "^1.1.1"
     }
 }
