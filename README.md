@@ -4,8 +4,7 @@
 [![tests](https://github.com/GILLESMaster/Gustav-PHP/actions/workflows/tests.yml/badge.svg)](https://github.com/GILLESMaster/Gustav-PHP/actions/workflows/tests.yml)
 [![GitHub last commit](https://img.shields.io/github/last-commit/GILLESMaster/Gustav-PHP.svg)](https://github.com/GILLESMaster/Gustav-PHP/commits/main)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/GILLESMaster/Gustav-PHP/blob/main/LICENSE)
-[![CodeFactor](https://www.codefactor.io/repository/github/gillesmaster/gustav-php/badge)](https://www.codefactor.io/repository/github/gillesmaster/gustav-php)
-[![gitlocalized ](https://gitlocalize.com/repo/8669/whole_project/badge.svg)](https://gitlocalize.com/repo/8669/whole_project?utm_source=badge)
+[![StyleCI](https://styleci.io/repos/644866261/shield)](https://styleci.io/repos/644866261)
 
 Gustav PHP is a web database API built on the Laravel framework with a Vite and Livewire powered frontend. It provides an easy and clean way for developers to integrate database features with simple HTTP requests and API keys.
 
